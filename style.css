@@ -1,0 +1,51 @@
+body{
+    background-image:url("bg.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    letter-spacing:0.2em;
+    font-size:0.8em;
+
+}
+.container{
+    max-width:400px;
+}
+.icons{
+    border-radius:50%;
+    position:absolute;
+    top:190px;
+    left:133px;
+}
+.pos{
+    position:relative;
+}
+
+.searchtext{
+    border:rgb(55, 113, 219) 1px solid;
+    width:20rem;
+    border-radius:5rem;
+    outline:none;
+    padding:.5rem;
+    
+}
+.searchbtn{
+    
+    position:absolute;
+    right:2.2rem;
+    top:2.2rem;
+}
+.searchtext:focus{
+    border:rgb(55, 113, 219) 2px solid;
+}
+.yy{
+    position:relative;
+}
+.hh{
+    color:white;
+}
+.pp{
+    color:white;
+    font-size:14px;
+}
+
+
+
